@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<style>
+    body {
+        font-family:Verdana;
+        background-color: #050f2d;
+        color: #ffffff;
+    }
+    
+    header {
+        background: #21252b;
+        background-image: linear-gradient(to right, rgb(41, 4, 87) , rgb(158, 9, 59));
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+   
+    .profile-pic {
+        width: 150px;
+        border-radius: 50%;
+        transition: transform 0.5s;
+    }
+    
+    .profile-pic:hover {
+        transform: scale(1.1);
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    </style>
+<body>
+    
+    <header>
+        <div class="profile">
+            <img src="pp.jpg" alt="Profile Picture" class="profile-pic" size=5888>
+            <h1>Ishmit Shekhar</h1>
+            <p>Frontend Developer</p>
+        </div>
+        <nav>
+            <a href="Resume.pdf" download>
+                <img src="dr.png" alt="Download Resume" width = "50" height="60">
+              </a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2 align = "center">About Me</h2>
+            <p align = "center">I'm a frontend developer with a passion for creating beautiful web applications.I'm a BCA student currently in my 3rd semester at CV Raman Global University, with a passion for web development. I love exploring new technologies, building responsive and dynamic websites, and constantly learning to improve my coding skills. My goal is to become proficient in front-end and back-end development, creating innovative web applications that solve real-world problems. Outside of academics, I enjoy staying updated with the latest trends in web design and development.</p>
+        </section>
+        
+        <section id="projects">
+            <h2 align = "center">My Projects</h2>
+            <br><p align = "center">Here are some of my recent works.</p>
+            
+           
+            <br><h3 align = "center">Rockstar Games Landing Page</h3>
+            <center><a href = "Landing Page.html" target = "_blank"><img src="rock.jpg" alt="Rockstar Games Landing Page" width = "100" height="100"></a>
+            </center>
+            
+        
+            <h3 align = "center">Web Calculator</h3>
+        <center><a href = "Calculator.html" target = "_blank"><img src="Calculator.png" alt="Web Calculator" width = "100" height="100"></a>
+    </section></center>
+
+
+
+        <section id="contact"><br>
+            <h4>Contact Me</h4>
+            <p>Email : ishmitshekhar020@gmail.com 
+                <br>Let's connect!</p>
+        </section>
+    </main>
+    <script src="script.js">
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log("Portfolio Loaded");
+        });
+        </script>
+</body>
+</html>
