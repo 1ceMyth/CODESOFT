@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rockstar Games</title>
+</head>
+<style>
+
+    body {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 10;
+        padding: 10;
+        background-color: #000000;
+        color: #ffffff;
+    }
+    
+    header {
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background: #000000;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    nav ul li a:hover {
+    color: rgb(255, 196, 0);
+}
+nav a:hover {
+    color: rgb(255, 196, 0);
+}
+    .hero {
+        background: url('banner4.jpg') no-repeat center center/cover;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        animation: fadeIn ease 1.5s;
+        animation-iteration-count: 1;
+        
+        }
+    
+    .game-card {
+        background: #1e1e1e;
+        margin: 20px;
+        padding: 15px;
+        border-radius: 8px;
+        transition: transform 0.3s;
+    }
+    
+    .game-card:hover {
+        transform: scale(1.05);
+    }
+    
+    footer {
+        background: #000000;
+        padding: 20px;
+        text-align: center;
+    }
+    .logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 20px;
+    height: auto;
+}
+.container {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 30px;
+}
+
+img {
+  max-width: 150%;
+  max-height: 40%;
+}
+
+.text {
+  font-size: 30px;
+  padding-right: 900px;
+}
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    </style>
+<body>
+    <header>
+        <img src="rockstar-games.gif" alt="error load" width="250">
+        <h1 align="center">&nbsp;Welcome to the World of Rockstar Games</h1>
+        <nav>
+            <ul>
+                <li><a href="#games">GAMES</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        
+    </section>
+    <h2 align="center">Experience The Thrill</h2>
+        <h2 align = "center">Join the adventure with our latest Games!</h2>
+        <nav><a href="https://www.rockstargames.com/" target="_blank"><h3 align = 'center'>EXPLORE MORE</h3></a></nav>
+    <div class="hero-content">
+      
+    </div>
+</section>
+    <section id="games">
+        <h2 align="center"><br><br>OUR GAMES</h2>
+        <div class="game-card">
+            <a href="https://www.rockstargames.com/gta-v" target="_blank"><img src="gta v logo.jpg" alt="GTA V" width="650"></a>
+            <h1>&nbsp;&nbsp;&nbsp;&nbsp;Grand Theft Auto V</h1>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Welcome to Los Santos!
+                When a young street hustler, a retired bank robber, and a terrifying psychopath find themselves entangled with some of the most frightening<br>&nbsp;&nbsp;&nbsp;&nbsp;and deranged elements of the criminal underworld,
+                the U.S. government, and the entertainment industry, they must pull off a series<br> &nbsp;&nbsp;&nbsp;&nbsp;of dangerous heists to survive in a ruthless city in which they can trust nobody
+                 — least of all each other.
+                </p>
+        </div>
+        <div class="game-card">
+            <a href="https://www.rockstargames.com/reddeadredemption2" target="_blank"><img src="rdr2.jpg" alt="RED DEAD REDEMPTION 2" width="650"></a>
+            <h1>&nbsp;&nbsp;&nbsp;&nbsp;Read Dead Redemption 2</h1>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater,<br> &nbsp;&nbsp;&nbsp;&nbsp; Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob,<br> &nbsp;&nbsp;&nbsp;&nbsp; steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart,<br> &nbsp;&nbsp;&nbsp;&nbsp; Arthur must make a choice between his own ideals and loyalty to the gang who raised him.</p>
+        </div>
+        <div class="game-card">
+            <a href="https://www.rockstargames.com/games/maxpayne3" target="_blank"><img src="mp3.jpg" alt="MAX PAYNE 3" width="650"></a>
+            <h1>&nbsp;&nbsp;&nbsp;&nbsp;Max Payne 3</h1>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;For Max, the tragedies that took his loved ones years ago are wounds that refuse to heal.<br>&nbsp;&nbsp;&nbsp;&nbsp;No longer a cop, close to washed up, and addicted to pain killers, he takes a job in São Paulo, Brazil, protecting the family of wealthy real estate mogul Rodrigo Branco in an effort to<br>&nbsp;&nbsp;&nbsp;&nbsp;finally escape his troubled past.&nbsp;But as events spiral out of his control, Max Payne finds himself alone on the streets of an unfamiliar city, desperately searching for the truth and fighting for a way &nbsp;&nbsp;&nbsp;&nbsp;out.</p>
+                
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="image">
+              <img src="rlogo.gif">
+            </div>
+            <div class="text">
+              <h1>About Us</h1>
+            </div>
+          </div>
+        <p>Rockstar Games, Inc. is an American video game publisher based in New York City. The company was established in December 1998 as a subsidiary of Take-Two Interactive, using the assets Take-Two had previously acquired from BMG Interactive. Founding members of the company were Terry Donovan, Gary Foreman, Dan and Sam Houser, and Jamie King, who worked for Take-Two at the time, and of which the Houser brothers were previously executives at BMG Interactive. Sam Houser heads the studio as president.
+
+            Since 1999, several companies acquired by or established under Take-Two have become part of Rockstar Games, such as Rockstar Canada (later renamed Rockstar Toronto) becoming the first one in 1999, and Rockstar Dundee the most recent in 2020. All companies organized under Rockstar Games bear the "Rockstar" name and logo. In this context, Rockstar Games is sometimes also referred to as Rockstar New York, Rockstar NY or Rockstar NYC. Rockstar Games also sports a motion capture studio in Bethpage, New York.
+            
+            Rockstar Games predominantly publishes games in the action-adventure genre, while racing games also saw success for the company. One of such action-adventure game franchises is Grand Theft Auto, which Rockstar Games took over from BMG Interactive, which published the series' original 1997 entry. The most recent main game in the series, Grand Theft Auto V, has sold over 200 million copies since its release in September 2013, making it the second-best-selling video game of all time. Other popular franchises published by Rockstar Games are Red Dead, Midnight Club, Max Payne, and Manhunt.</p>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: rockstargames@gmail.com</p>
+        <a href="https://www.instagram.com/rockstargames" target="_blank"><h3><img src="ig.jpg" alt="Instagram" width="40"></h3></a>
+        <a href="https://x.com/rockstargames" target="_blank"><h3><img src="x.jpg" alt="X" width="40"></a></h3>
+        <a href="https://www.youtube.com/rockstargames" target="_blank"><h3><img src="yt.jpg" alt="YouTube" width="40"></a></h3>
+
+        
+    </footer>
+<footer>
+        <p>&copy; 2024 Rockstar Games. All rights reserved.</p>
+    </footer>
+    <script src="script.js">
+
+function scrollToGames() {
+    document.getElementById('games').scrollIntoView({ behavior: 'smooth' });
+}
+     
+    </script>
+</body>
+</html>
